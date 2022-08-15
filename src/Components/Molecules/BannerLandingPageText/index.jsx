@@ -1,7 +1,7 @@
 const BannerLandingPageText = () => {
   return (
     <div className='banner-lp-text-wrapper'>
-      <h2 className='banner-lp-subheading'>low price, good quality</h2>
+      <h2 className='banner-lp-subheading'>Low Price, Good Quality</h2>
       <h1 className='banner-lp-heading'>
         Make your room Interior View Smarter and more comfortable
       </h1>
