@@ -19,6 +19,21 @@
     align-items: center;
 }
 
+.swiper {
+    width: 100%;
+    padding-left: 138px !important;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
 .nav-item {
     text-decoration: none;
     color: #171727;
