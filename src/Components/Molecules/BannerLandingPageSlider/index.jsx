@@ -11,40 +11,42 @@ import 'swiper/css';
 
 const BannerLandingPageSlider = () => {
   return (
-    <Swiper
-      // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y, EffectCoverflow]}
-      effect='coverflow'
-      coverflowEffect={{
-        rotate: 0,
-        depth: 0,
-        slideShadows: false,
-        scale: 1.5,
-      }}
-      width={480}
-      height={600}
-      spaceBetween={50}
-      slidesPerView={1}
-      navigation
-      pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
-    >
-      <SwiperSlide>
-        <img src='https://swiperjs.com/demos/images/nature-1.jpg' alt='' />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src='https://swiperjs.com/demos/images/nature-2.jpg' alt='' />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src='https://swiperjs.com/demos/images/nature-3.jpg' alt='' />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src='https://swiperjs.com/demos/images/nature-4.jpg' alt='' />
-      </SwiperSlide>
-      ...
-    </Swiper>
+    <div className='swiper-container'>
+      <Swiper
+        // install Swiper modules
+        modules={[Navigation, Pagination, Scrollbar, A11y, EffectCoverflow]}
+        effect='coverflow'
+        coverflowEffect={{
+          depth: 225,
+          rotate: 0,
+          scale: 1,
+          stretch: -30,
+          slideShadows: false,
+          modifier: 1,
+        }}
+        spaceBetween={30}
+        slidesPerView={'auto'}
+        loop={false}
+        navigation
+        pagination={{ clickable: true }}
+        scrollbar={{ draggable: true }}
+        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={() => console.log('slide change')}
+      >
+        <SwiperSlide>
+          <img src='https://swiperjs.com/demos/images/nature-1.jpg' alt='' />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src='https://swiperjs.com/demos/images/nature-2.jpg' alt='' />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src='https://swiperjs.com/demos/images/nature-3.jpg' alt='' />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src='https://swiperjs.com/demos/images/nature-4.jpg' alt='' />
+        </SwiperSlide>
+      </Swiper>
+    </div>
   );
 };
 
