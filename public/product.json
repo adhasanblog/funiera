@@ -1,0 +1,22 @@
+{
+  "product": [
+    {
+      "productId": 1,
+      "productName": "Smastad Cupboard",
+      "productRate": "5",
+      "productImage": "./Images/Product/smastad-cupboard.png",
+      "productPrice": 1229500,
+      "productStock": 560,
+      "productCategory": "cupboard"
+    },
+    {
+      "productId": 2,
+      "productName": "Millberget Chair",
+      "productRate": "5",
+      "productImage": "./Images/Product/millberget-chair.png",
+      "productPrice": 1599000,
+      "productStock": 5640,
+      "productCategory": "chairs"
+    }
+  ]
+}

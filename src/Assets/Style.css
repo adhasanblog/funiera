@@ -7,6 +7,14 @@
   width: 1280px;
   margin: 0 auto;
 }
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.header-wrapper hr {
+  border: 1px solid #e2e2e2;
+}
 .navbar {
   display: flex;
   margin-top: 35px;
