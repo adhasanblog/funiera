@@ -3,7 +3,7 @@ import Collections from "../../Molecules/Collections";
 
 const OurCollections = () => {
   return (
-    <section className="our-collect-wrapper">
+    <section className="container our-collect-wrapper">
       <div className="our-collect-title">
         <h2>Our Collections</h2>
         <Button type="btn secondary-style">View All</Button>

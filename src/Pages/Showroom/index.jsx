@@ -4,6 +4,7 @@ import "../../Assets/Style.css";
 import Main from "../../Layouts/Main";
 
 const Showroom = () => {
+  document.title = "FuniEra | Showroom";
   return (
     <>
       <Header>

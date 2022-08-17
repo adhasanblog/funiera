@@ -1,4 +1,4 @@
-const Footer = (props) => {
+const Footer = props => {
   return <footer>{props.children}</footer>;
 };
 

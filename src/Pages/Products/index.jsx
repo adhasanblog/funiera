@@ -4,6 +4,7 @@ import "../../Assets/Style.css";
 import Main from "../../Layouts/Main";
 
 const Product = () => {
+  document.title = "FuniEra | Produk Yang Kami Miliki";
   return (
     <>
       <Header>

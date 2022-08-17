@@ -4,7 +4,7 @@ import BannerLandingPageText from "../../Molecules/BannerLandingPageText";
 
 const BannerLandingPage = () => {
   return (
-    <div className="banner-lp-wrapper">
+    <div className="container banner-lp-wrapper">
       <BannerLandingPageText />
       <BannerLandingPageRoomCat />
       <BannerLandingPageSlider />
