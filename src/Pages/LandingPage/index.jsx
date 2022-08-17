@@ -1,8 +1,9 @@
-import Navbar from '../../Components/Organism/Navbar';
-import Header from '../../Layouts/Header';
-import '../../Assets/Style.css';
-import Main from '../../Layouts/Main';
-import BannerLandingPage from '../../Components/Organism/BannerLandingPage';
+import Navbar from "../../Components/Organism/Navbar";
+import Header from "../../Layouts/Header";
+import "../../Assets/Style.css";
+import Main from "../../Layouts/Main";
+import BannerLandingPage from "../../Components/Organism/BannerLandingPage";
+import OurCollections from "../../Components/Organism/OurCollections";
 
 const LandingPage = () => {
   return (
@@ -12,6 +13,7 @@ const LandingPage = () => {
       </Header>
       <Main>
         <BannerLandingPage />
+        <OurCollections />
       </Main>
     </>
   );
