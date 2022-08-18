@@ -5,8 +5,8 @@
       "productName": "Smastad Cupboard",
       "productRate": "5",
       "productImage": "./Images/Product/smastad-cupboard.png",
-      "productPrice": 1229500,
-      "productStock": 560,
+      "productPrice": "1.229.500",
+      "productSell": 560,
       "productCategory": "cupboard"
     },
     {
@@ -14,9 +14,100 @@
       "productName": "Millberget Chair",
       "productRate": "5",
       "productImage": "./Images/Product/millberget-chair.png",
-      "productPrice": 1599000,
-      "productStock": 5640,
+      "productPrice": "1.599.000",
+      "productSell": 5640,
       "productCategory": "chairs"
+    },
+    {
+      "productId": 3,
+      "productName": "Landskrona Sofa",
+      "productRate": "5",
+      "productImage": "./Images/Product/landskrona-sofa.png",
+      "productPrice": "3.495.000",
+      "productSell": 980,
+      "productCategory": "sofas"
+    },
+    {
+      "productId": 4,
+      "productName": "Raskog troly",
+      "productRate": "5",
+      "productImage": "./Images/Product/raskog-troly.png",
+      "productPrice": "229.000",
+      "productSell": 260,
+      "productCategory": "troly"
+    },
+    {
+      "productId": 5,
+      "productName": "Hemlingby Sofa",
+      "productRate": "5",
+      "productImage": "./Images/Product/hemlingby-sofa.png",
+      "productPrice": "1.895.000",
+      "productSell": 880,
+      "productCategory": "sofas"
+    },
+    {
+      "productId": 6,
+      "productName": "Tommyard Table",
+      "productRate": "5",
+      "productImage": "./Images/Product/millberget-chair.png",
+      "productPrice": "2.559.150",
+      "productSell": 1560,
+      "productCategory": "tables"
+    },
+    {
+      "productId": 7,
+      "productName": "Sakarias Sofa",
+      "productRate": "5",
+      "productImage": "./Images/Product/sakarias-sofa.png",
+      "productPrice": "1.895.000",
+      "productSell": 4605,
+      "productCategory": "sofas"
+    },
+    {
+      "productId": 7,
+      "productName": "Raskog Chair",
+      "productRate": "5",
+      "productImage": "./Images/Product/raskog-chair.png",
+      "productPrice": "395.000",
+      "productSell": 2501,
+      "productCategory": "chairs"
+    },
+    {
+      "productId": 8,
+      "productName": "Raskog troly",
+      "productRate": "5",
+      "productImage": "./Images/Product/raskog-troly.png",
+      "productPrice": "229.000",
+      "productSell": 260,
+      "productCategory": "troly"
+    },
+    {
+      "productId": 9,
+      "productName": "Raskog Chair",
+      "productRate": "5",
+      "productImage": "./Images/Product/raskog-chair.png",
+      "productPrice": "395.000",
+      "productSell": 2501,
+      "productCategory": "chairs"
+    },
+    {
+      "productId": 10,
+      "productName": "Millberget Chair",
+      "productRate": "5",
+      "productImage": "./Images/Product/millberget-chair.png",
+      "productPrice": "1.599.000",
+      "productSell": 5640,
+      "productCategory": "chairs"
+    },
+    {
+      "productId": 3,
+      "productName": "Landskrona Sofa",
+      "productRate": "5",
+      "productImage": "./Images/Product/landskrona-sofa.png",
+      "productPrice": "3.495.000",
+      "productSell": 980,
+      "productCategory": "sofas"
     }
+    
   ]
 }

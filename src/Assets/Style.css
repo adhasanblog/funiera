@@ -108,12 +108,13 @@
   width: max-content;
   padding: 15px 32px;
   font-size: 18px;
+  cursor: pointer;
 }
-.btn.primary-size {
+.primary-size {
   width: 221px;
   height: 59px;
 }
-.btn.primary-style {
+.primary-style {
   font-size: 18px;
   font-weight: 500;
   color: white;
@@ -126,7 +127,7 @@
   background-color: #d38669;
 }
 
-.btn.secondary-style {
+.secondary-style {
   font-size: 18px;
   font-weight: 500;
   color: #d38669;
@@ -210,6 +211,7 @@
   background-color: rgba(211, 134, 105, 10%);
   border: none;
   outline: none;
+  cursor: pointer;
 }
 .our-collect-wrapper {
   display: flex;
@@ -473,4 +475,82 @@
 .service-button {
   display: flex;
   gap: 30px;
+}
+.product-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+.product {
+  display: flex;
+  gap: 29px;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  display: flex;
+  width: 298px;
+  flex-direction: column;
+  gap: 12px;
+ 
+}
+.product-item-image {
+  position: relative;
+  display: flex;
+  height: 260px;
+  border-radius: 30px;
+  background-color: #F2F2F2;
+}
+.product-item-image img {
+  width: 250px;
+  margin: auto;
+}
+.product-item-image svg {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.product-item-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.product-item-rating-sell {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.rate {
+  display: flex;
+  align-items: center;
+}
+.product-sell {
+  font-size: 16px;
+  color: #AAAAAA;
+}
+.product-price {
+  font-size: 20px;
+  font-weight: 600;
+  color: #171627;
+}
+
+.product-header {
+   margin: auto;
+   text-align: center;
+   margin-top: 70px;
+}
+
+.product-header .subheading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #d38669;
+  letter-spacing: 0.01em;
+}
+
+.product-header .heading {
+  font-family: "Roboto Slab";
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 68px;
 }
