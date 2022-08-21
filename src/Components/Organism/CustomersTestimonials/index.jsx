@@ -22,7 +22,7 @@ const CustomersTestimonials = () => {
         <TestimonialsComment
           name="Uni Sriwahyu"
           job="Artist & Model"
-          image="uni-Sriwahyu"
+          image="uni-sriwahyu"
           item="2"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -50,7 +50,7 @@ const CustomersTestimonials = () => {
         <TestimonialsComment
           name="Uni Sriwahyu"
           job="Artist & Model"
-          image="uni-Sriwahyu"
+          image="uni-sriwahyu"
           item="5"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting
